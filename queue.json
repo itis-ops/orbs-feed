@@ -11,9 +11,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-01-morning.jpg",
       "caption": "day one.\n\ni packed light. mostly questions.\nthe sky did not ask who i used to be —\nit just made room.\n\n30 days. 30 pages. i'm writing them in the sky.\nif you're starting something too — a semester, a city,\na version of yourself — walk with me.",
       "firstComment": "#poetry #journal #newbeginnings #firstgen #becoming #orbs",
-      "status": "error",
-      "error": "Graph POST 400: Unsupported post request. Object with ID '1069626989578340' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api",
-      "erroredAt": "2026-06-12T04:08:46.798Z"
+      "status": "pending"
     },
     {
       "id": "day-01-afternoon",
@@ -22,9 +20,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-01-afternoon.jpg",
       "caption": "field notes, page one.\n\nthe room hums. no talking this afternoon — just observing.\ni used to think watching from the edge meant i didn't belong.\nnow i think it means i'm paying attention.\n\neverything i notice becomes material.\neverything i keep becomes me.\n\nwhat did you notice today that nobody else did?",
       "firstComment": "#poetry #journal #observer #quietmoments #becoming #orbs",
-      "status": "error",
-      "error": "Graph POST 400: Unsupported post request. Object with ID '1069626989578340' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api",
-      "erroredAt": "2026-06-12T04:08:46.969Z"
+      "status": "pending"
     },
     {
       "id": "day-01-night",
@@ -35,9 +31,7 @@
       "firstComment": "#nightthoughts #poetry #journal #solitude #youarenotalone #orbs",
       "pinnedComment": "if tonight is heavy, text or call 988 (US). this page is about making it through — you're part of that. ◉",
       "needsManualPin": true,
-      "status": "error",
-      "error": "Graph POST 400: Unsupported post request. Object with ID '1069626989578340' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api",
-      "erroredAt": "2026-06-12T04:08:47.149Z"
+      "status": "pending"
     }
   ]
 }
