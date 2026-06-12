@@ -1,0 +1,11 @@
+{
+  "name": "orbs-feed",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Public host for Orbs post images + scheduled publishing queue.",
+  "scripts": {
+    "publish:due": "node tools/publish-due.mjs",
+    "publish:dry": "node tools/publish-due.mjs --dry-run"
+  }
+}

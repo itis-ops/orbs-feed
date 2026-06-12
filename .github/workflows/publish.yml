@@ -1,0 +1,56 @@
+name: publish
+
+on:
+  schedule:
+    # every 30 minutes; slot times live in queue.json, this just needs to be
+    # finer than the spacing between posts. (GitHub may delay cron under load.)
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (log only, do not publish)"
+        type: boolean
+        default: false
+
+# allow the job to commit the updated queue.json back to the repo
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Publish due posts
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
+        run: |
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            node tools/publish-due.mjs --dry-run
+          else
+            node tools/publish-due.mjs
+          fi
+
+      - name: Commit queue state if changed
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          if [ -n "$(git status --porcelain queue.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add queue.json
+            git commit -m "publish: update queue state [skip ci]"
+            git push
+          else
+            echo "No queue changes to commit."
+          fi
