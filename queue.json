@@ -35,9 +35,10 @@
       "firstComment": "#nightthoughts #poetry #journal #solitude #youarenotalone #orbs",
       "pinnedComment": "if tonight is heavy, text or call 988 (US). this page is about making it through — you're part of that. ◉",
       "needsManualPin": true,
-      "status": "error",
-      "error": "Graph POST 400: Invalid OAuth access token - Cannot parse access token",
-      "erroredAt": "2026-06-13T03:39:54.269Z"
+      "status": "posted",
+      "postedAt": "2026-06-13T03:50:07.032Z",
+      "mediaId": "18119777005705232",
+      "commentId": "18314178433277361"
     },
     {
       "id": "day-02-morning",
