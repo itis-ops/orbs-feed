@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T02:40:04.789Z",
+  "generatedAt": "2026-06-13T03:45:00.000Z",
   "repo": "itis-ops/orbs-feed",
   "branch": "main",
   "timezone": "America/New_York",
@@ -11,9 +11,8 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-01-morning.jpg",
       "caption": "day one.\n\ni packed light. mostly questions.\nthe sky did not ask who i used to be —\nit just made room.\n\n30 days. 30 pages. i'm writing them in the sky.\nif you're starting something too — a semester, a city,\na version of yourself — walk with me.",
       "firstComment": "#poetry #journal #newbeginnings #firstgen #becoming #orbs",
-      "status": "error",
-      "error": "Graph POST 400: Unsupported post request. Object with ID '1069626989578340' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api",
-      "erroredAt": "2026-06-12T04:21:21.943Z"
+      "status": "skipped",
+      "skipReason": "catch-up: afternoon + night cover day 1 launch"
     },
     {
       "id": "day-01-afternoon",
@@ -22,9 +21,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-01-afternoon.jpg",
       "caption": "field notes, page one.\n\nthe room hums. no talking this afternoon — just observing.\ni used to think watching from the edge meant i didn't belong.\nnow i think it means i'm paying attention.\n\neverything i notice becomes material.\neverything i keep becomes me.\n\nwhat did you notice today that nobody else did?",
       "firstComment": "#poetry #journal #observer #quietmoments #becoming #orbs",
-      "status": "error",
-      "error": "Graph POST 400: Unsupported post request. Object with ID '1069626989578340' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api",
-      "erroredAt": "2026-06-12T04:21:22.026Z"
+      "status": "posted",
+      "postedAt": "2026-06-12T20:42:14.593Z",
+      "mediaId": "18411318346197793",
+      "commentId": "18136683130568487"
     },
     {
       "id": "day-01-night",
@@ -35,9 +35,25 @@
       "firstComment": "#nightthoughts #poetry #journal #solitude #youarenotalone #orbs",
       "pinnedComment": "if tonight is heavy, text or call 988 (US). this page is about making it through — you're part of that. ◉",
       "needsManualPin": true,
-      "status": "error",
-      "error": "Graph POST 400: Unsupported post request. Object with ID '1069626989578340' does not exist, cannot be loaded due to missing permissions, or does not support this operation. Please read the Graph API documentation at https://developers.facebook.com/docs/graph-api",
-      "erroredAt": "2026-06-12T04:21:22.110Z"
+      "status": "pending"
+    },
+    {
+      "id": "day-02-morning",
+      "scheduledAt": "2026-06-13T08:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-02-morning.jpg",
+      "caption": "it has been over a month now.\nthings have begun to roll and unfold\nthe way they do every fall.\n\nridiculously hot for october.\nbut the familiar smell of change\nhas started to settle over these aged grounds.\n\ni think back to the summer\nand realize how beautiful memories are.\nand how experiences are nothing\nwithout storage.\n\nso i'm storing them. all of them.\nthat's what this page is.",
+      "firstComment": "#poetry #journaling #orbs #becoming #midnightthoughts #genzpoetry",
+      "status": "pending"
+    },
+    {
+      "id": "day-02-night",
+      "scheduledAt": "2026-06-13T22:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-02-night.jpg",
+      "caption": "i miss last year.\nmarch. parties. summer.\nsaturday night.\nten minutes ago.\n\ntime is two faced.\ntime is strength.\ntime is the answer.\n\nit begins tonight. i begin tonight,\nin my dreams. my thoughts die\nand relive tonight.\n\nwhen my eyes reopen in the morning\ni will be new. different.\ni will be a change.",
+      "firstComment": "#poetry #3amthoughts #orbs #nostalgia #prose #dreamjournal",
+      "status": "pending"
     }
   ]
 }
