@@ -46,7 +46,9 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-02-morning.jpg",
       "caption": "it has been over a month now.\nthings have begun to roll and unfold\nthe way they do every fall.\n\nridiculously hot for october.\nbut the familiar smell of change\nhas started to settle over these aged grounds.\n\ni think back to the summer\nand realize how beautiful memories are.\nand how experiences are nothing\nwithout storage.\n\nso i'm storing them. all of them.\nthat's what this page is.",
       "firstComment": "#poetry #journaling #orbs #becoming #midnightthoughts #genzpoetry",
-      "status": "pending"
+      "status": "error",
+      "error": "Graph POST 400: Invalid OAuth access token - Cannot parse access token",
+      "erroredAt": "2026-06-13T15:20:50.091Z"
     },
     {
       "id": "day-02-night",
