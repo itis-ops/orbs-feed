@@ -57,7 +57,9 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-02-night.jpg",
       "caption": "i miss last year.\nmarch. parties. summer.\nsaturday night.\nten minutes ago.\n\ntime is two faced.\ntime is strength.\ntime is the answer.\n\nit begins tonight. i begin tonight,\nin my dreams. my thoughts die\nand relive tonight.\n\nwhen my eyes reopen in the morning\ni will be new. different.\ni will be a change.",
       "firstComment": "#poetry #3amthoughts #orbs #nostalgia #prose #dreamjournal",
-      "status": "pending"
+      "status": "error",
+      "error": "Graph POST 400: Invalid OAuth access token - Cannot parse access token",
+      "erroredAt": "2026-06-14T08:55:48.834Z"
     },
     {
       "id": "day-03-morning",
