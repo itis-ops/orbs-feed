@@ -79,7 +79,9 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-03-afternoon.jpg",
       "caption": "i'm not here to say i'm taking\nsome spiritual journey to find \"who i am.\"\n\ni'm here to make answers.\nto make myself.\n\ni don't know exactly what i'm looking for.\nwho does?\nbut i know my duty is to look.\n\ni cannot describe this idea to anyone\nexcept me.\nand now, i guess, to you.",
       "firstComment": "#poetry #genzpoetry #orbs #becoming #prose #existential",
-      "status": "pending"
+      "status": "error",
+      "error": "Graph POST 400: Invalid OAuth access token - Cannot parse access token",
+      "erroredAt": "2026-06-14T20:23:59.375Z"
     },
     {
       "id": "day-03-night",
