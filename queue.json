@@ -68,7 +68,9 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-03-morning.jpg",
       "caption": "i have decided to change my life.\n\nthis is day one.\n\ni spill it all out on the table\nlike an unwritten script,\na blank blueprint,\na radical idea.\n\nno distractions. just the creation of ideas,\nthe reflection of ideas,\nand above all, the search for answers.\n\nNO. the creation of answers.",
       "firstComment": "#poetry #becoming #orbs #journaling #transformation #college",
-      "status": "pending"
+      "status": "error",
+      "error": "Graph POST 400: Invalid OAuth access token - Cannot parse access token",
+      "erroredAt": "2026-06-14T15:29:35.569Z"
     },
     {
       "id": "day-03-afternoon",
