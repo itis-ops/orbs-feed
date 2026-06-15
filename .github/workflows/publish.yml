@@ -10,6 +10,7 @@ on:
     # The push trigger above is the reliable same-minute firing mechanism.
     - cron: "*/15 * * * *"
   workflow_dispatch:
+  workflow_call: # allows heartbeat.yml to call this directly
     inputs:
       dry_run:
         description: "Dry run (log only, do not publish)"
