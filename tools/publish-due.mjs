@@ -155,6 +155,13 @@ async function main() {
       break;
     }
     const when = new Date(item.scheduledAt).toISOString();
+    const localImg = path.join(REPO_ROOT, "posts", `${item.id}.jpg`);
+    try {
+      await fs.access(localImg);
+    } catch {
+      console.warn(`SKIP ${item.id}: posts/${item.id}.jpg not in repo yet (still pending)`);
+      continue;
+    }
     if (args.dryRun) {
       console.log(`WOULD POST  ${item.id}  @${when}`);
       console.log(`            img: ${item.imageUrl}`);

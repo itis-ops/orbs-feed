@@ -70,9 +70,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-03-morning.jpg",
       "caption": "i have decided to change my life.\n\nthis is day one.\n\ni spill it all out on the table\nlike an unwritten script,\na blank blueprint,\na radical idea.\n\nno distractions. just the creation of ideas,\nthe reflection of ideas,\nand above all, the search for answers.\n\nNO. the creation of answers.",
       "firstComment": "#poetry #becoming #orbs #journaling #transformation #college",
-      "status": "error",
-      "error": "Graph POST 400: Only photo or video can be accepted as media type.",
-      "erroredAt": "2026-06-15T00:28:46.392Z"
+      "status": "pending"
     },
     {
       "id": "day-03-afternoon",
@@ -431,7 +429,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-22-morning.jpg",
       "caption": "i put this down once.\n\nthe notebook. the question. the version of me\nthat wrote things at midnight\nand meant every word.\n\nlife needed both hands for a while\nand so i set it aside.\n\nbut here's the thing about things\nyou actually need:\nthey wait.\n\ni came back and it was right where i left it.\na little dusty. still warm.\nstill mine.",
       "firstComment": "#poetry #journaling #orbs #becoming #return #prose",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-22-night",
@@ -440,7 +438,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-22-night.jpg",
       "caption": "i needed this.\n\nmore than i thought i did\nuntil i did it again.\n\nthere is a kind of thinking\nthat only happens when you write.\nwhere the sentence goes somewhere\nyou didn't plan.\n\nand you find out what you actually think\nbecause you watched yourself write it.\n\ni missed this.\ni'm not putting it down again.",
       "firstComment": "#poetry #orbs #journaling #solitude #prose #midnightthoughts",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-23-morning",
@@ -449,7 +447,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-23-morning.jpg",
       "caption": "i started paying attention differently.\n\nnot to what people said\nbut to the ratio.\n\nhow much of a gathering\nwas hunger.\nhow much was hurt.\nhow much was just — reflex.\npattern. loop. repeat.\n\ni don't say this to be above it.\ni say it because i found myself in the ratio too.\nand i had to decide\nwhat i wanted to add.",
       "firstComment": "#poetry #orbs #journaling #existential #becoming #prose",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-23-night",
@@ -458,7 +456,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-23-night.jpg",
       "caption": "some losses make you angry.\n\nthis one made me careful.\n\nand careful is its own kind of grief.\nbecause being careful means\nyou don't do what was natural.\nyou measure the distance before you cross it.\nyou edit the first thought.\n\ni miss the before.\nwhen i didn't have to do any of that.",
       "firstComment": "#poetry #orbs #solitude #melancholy #prose #3amthoughts",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-24-morning",
@@ -467,7 +465,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-24-morning.jpg",
       "caption": "i've spent a lot of time\nlooking up.\n\nand what i keep coming back to is:\nthe infinite is not the point.\n\nthe point is the place you stand\nwhen you look at it.\n\nif you know where you're standing\nyou can look at anything.\nif you don't —\nthe infinite is just very large loss.",
       "firstComment": "#poetry #orbs #existential #becoming #prose #solitude",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-24-night",
@@ -476,7 +474,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-24-night.jpg",
       "caption": "four weeks ago i said:\nnot knowing is a data point.\n\ni still believe that.\nbut i've also been working.\nquietly. steadily.\nfilling in the diagram.\n\nnot the whole thing.\nbut enough that i can see\nwhich parts i was wrong about\nand which parts were right all along.\n\nboth are useful.\nboth are mine now.",
       "firstComment": "#poetry #orbs #journaling #becoming #existential #genzpoetry",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-25-morning",
@@ -485,7 +483,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-25-morning.jpg",
       "caption": "i used to maintain the walls\nbecause i thought what was inside\ncouldn't handle the outside.\n\nbut then the crack happened\nand i found out:\nit was tougher than i thought.\n\nnot invincible.\nnot without pain.\nbut tougher.\n\nthe light comes in now.\nand the thing inside\nis still here.\nstill working.\nthat's enough.",
       "firstComment": "#poetry #orbs #becoming #almostlove #prose #genzpoetry",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-25-night",
@@ -494,7 +492,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-25-night.jpg",
       "caption": "i'm not trying to forget the cage.\n\ni want to remember every bar.\nbecause that's what taught me\nwhere the door was.\n\nthe door was always there.\ni just couldn't see it\nuntil i knew the structure well enough\nto find the gap.\n\nand now i'm out.\ncarrying the knowledge of the shape.\nthat's not baggage.\nthat's a blueprint.",
       "firstComment": "#poetry #orbs #becoming #existential #prose #declaration",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-26-morning",
@@ -503,7 +501,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-26-morning.jpg",
       "caption": "i looked back once.\n\nthere was a path.\n\ni made it just by walking.\njust by not stopping.\nby showing up when i didn't know the answer\nand being present for the part where it revealed itself.\n\nand somebody somewhere\nis going to walk that path after me.\nand i'll never meet them.\nand that's fine.\n\nthat's the whole thing.",
       "firstComment": "#poetry #firstgen #orbs #becoming #pioneer #prose",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-26-night",
@@ -512,7 +510,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-26-night.jpg",
       "caption": "i used to think that doing the work alone\nwas the point of the work.\n\nbut i've been changing my mind.\n\nthe solitude was the method, not the goal.\ni needed the quiet to hear myself clearly.\nbut hearing yourself clearly\nso you can say it back to the room —\n\nthat's the next part.\nthat's what it was practice for.",
       "firstComment": "#poetry #orbs #solitude #artandwords #prose #becoming",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-27-morning",
@@ -521,7 +519,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-27-morning.jpg",
       "caption": "i've been staying cleaner.\n\nnot because i became disciplined.\nbecause i ran the experiment.\ni saw what the haze made of me.\nand it was less interesting\nthan what the clarity makes of me.\n\nthat's the whole argument.\nno willpower required.\njust preference.\n\ni prefer the version that shows up\nfor its own life.",
       "firstComment": "#poetry #orbs #becoming #prose #journaling #solitude",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-27-night",
@@ -530,7 +528,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-27-night.jpg",
       "caption": "i've been doing this long enough\nto know the pace of it.\n\nthere are sprint periods.\nbig understanding periods.\nand then there are the in-between times\nwhere nothing is happening\nbut the sediment is settling.\n\ni used to confuse settling for stopping.\nthey're different.\n\ni'm in a settling period.\ni'm letting it settle.\nthat's also work.",
       "firstComment": "#poetry #orbs #solitude #prose #midnightthoughts #journaling",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-28-morning",
@@ -539,7 +537,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-28-morning.jpg",
       "caption": "i only have a few pages left\nin this notebook.\n\nand i find myself writing smaller.\nnot because i have less to say.\nbecause i want each word\nto earn its space.\n\nthat's new for me.\nat 18 i wrote like i had infinite pages.\n\nmaybe that was right then.\nbut right now the scarcity\nis making every sentence\nfeel like a decision.\n\ni like the weight of that.",
       "firstComment": "#poetry #journaling #orbs #becoming #prose #genzpoetry",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-28-night",
@@ -548,7 +546,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-28-night.jpg",
       "caption": "four weeks of pages.\n\nwhat i've learned:\nyou can return and still be moving forward.\nthe cage is a text, not a trap.\nthe solo work was practice for the together work.\nclarity is preference, not discipline.\ndrift is also work.\n\nwhat i still don't know:\nhow the last two days are supposed to end.\n\ngood.\ni don't think endings are supposed to be known in advance.",
       "firstComment": "#poetry #journaling #orbs #weekone #becoming #genzpoetry",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-29-morning",
@@ -557,7 +555,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-29-morning.jpg",
       "caption": "i keep thinking about what a notebook actually is.\n\nnot the object.\nthe structure of it.\n\nit's a field.\neverything in it still moving in relation to everything else.\nthe thing i wrote on page one\nchanges when i write page twenty-nine.\n\nnot because i edited it.\nbecause i am now reading it\nfrom further along.\n\neverything here is in orbit.\nthat's the whole design.",
       "firstComment": "#poetry #orbs #journaling #becoming #prose #genzpoetry",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-29-night",
@@ -566,7 +564,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-29-night.jpg",
       "caption": "i kept this.\n\nthe embarrassing parts.\nthe parts i got wrong.\nthe nights where the writing was just\nme trying to talk myself down\nfrom something.\n\ni kept it because it happened.\nand what happened is mine.\nand mine is not nothing.\nmine is everything i was made of\nat a specific time.\n\nthat's the archive.\nthat's the whole project.",
       "firstComment": "#poetry #journaling #orbs #3amthoughts #prose #solitude",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-30-morning",
@@ -575,7 +573,7 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-30-morning.jpg",
       "caption": "day thirty.\n\ni'm not the same person\nwho wrote day one.\n\nbut i'm not unrecognizable either.\nmore like: the same song\nplayed with better hands.\n\ni know more of what i am.\ni have better words for the parts\nthat used to just sit there unnamed.\n\ni have a notebook that says i showed up.\n\nthat's not nothing.\nthat's almost everything.",
       "firstComment": "#poetry #journaling #orbs #becoming #prose #30days",
-      "status": "pending"
+      "status": "awaiting-image"
     },
     {
       "id": "day-30-night",
@@ -586,7 +584,7 @@
       "firstComment": "#poetry #journaling #orbs #becoming #30days #genzpoetry",
       "pinnedComment": "thank you for 30 days of pages. orbs continues — follow for what's next. ◉",
       "needsManualPin": true,
-      "status": "pending"
+      "status": "awaiting-image"
     }
   ]
 }
