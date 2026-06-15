@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T03:58:46.081Z",
+  "generatedAt": "2026-06-15T14:22:52.791Z",
   "repo": "itis-ops/orbs-feed",
   "branch": "main",
   "timezone": "America/New_York",
@@ -15,7 +15,7 @@
     },
     {
       "id": "day-01-afternoon",
-      "scheduledAt": "2026-06-11T13:00:00-04:00",
+      "scheduledAt": "2026-06-11T17:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-01-afternoon.jpg",
       "caption": "field notes, page one.\n\nthe room hums. no talking this afternoon — just observing.\ni used to think watching from the edge meant i didn't belong.\nnow i think it means i'm paying attention.\n\neverything i notice becomes material.\neverything i keep becomes me.\n\nwhat did you notice today that nobody else did?",
@@ -77,7 +77,7 @@
     },
     {
       "id": "day-03-afternoon",
-      "scheduledAt": "2026-06-14T13:00:00-04:00",
+      "scheduledAt": "2026-06-14T17:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-03-afternoon.jpg",
       "caption": "i'm not here to say i'm taking\nsome spiritual journey to find \"who i am.\"\n\ni'm here to make answers.\nto make myself.\n\ni don't know exactly what i'm looking for.\nwho does?\nbut i know my duty is to look.\n\ni cannot describe this idea to anyone\nexcept me.\nand now, i guess, to you.",
@@ -139,6 +139,15 @@
       "status": "pending"
     },
     {
+      "id": "day-05-afternoon",
+      "scheduledAt": "2026-06-16T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-05-afternoon.jpg",
+      "caption": "the thing about mystery\nis it's rarely somewhere else.\nit's the same room\nat a different angle.\n\nthat spilled tray this morning\nmade a shape i won't see again.\ni stood there looking at it\nlonger than i needed to.\n\nthat's all mystery asks, i think.\njust: stop. look.\n\nyou don't have to go anywhere.",
+      "firstComment": "#poetry #orbs #prose #midnightthoughts #journaling #genzpoetry",
+      "status": "pending"
+    },
+    {
       "id": "day-05-night",
       "scheduledAt": "2026-06-16T22:00:00-04:00",
       "timezone": "America/New_York",
@@ -154,6 +163,15 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-06-morning.jpg",
       "caption": "i gave a dollar to a stranger this morning.\n\nwhy did i reach into my pocket?\nby the look of things that dollar wasn't\ngoing anywhere good. that thought hurt.\nbut i don't regret it. it felt like a duty.\n\nshe put herself on the line to ask.\nmaybe that effort earned it.\n\na dollar is small.\ndeciding what kind of person you are\nis not.",
       "firstComment": "#poetry #smallmercies #orbs #prose #journaling #becoming",
+      "status": "pending"
+    },
+    {
+      "id": "day-06-afternoon",
+      "scheduledAt": "2026-06-17T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-06-afternoon.jpg",
+      "caption": "the thing about living in a city\nis you're surrounded\nand alone in the same moment.\n\ni sat in the window for a while today\nwatching people walk by.\nnobody saw me.\ni wasn't bothered.\n\ni was the window.\njust watching the light move through.\n\nthere's a version of lonely\nthat isn't sad.\nit's just: quiet.\n\ni'm getting better at that one.",
+      "firstComment": "#poetry #solitude #orbs #prose #journaling #genzpoetry",
       "status": "pending"
     },
     {
@@ -177,6 +195,33 @@
       "status": "pending"
     },
     {
+      "id": "day-08-morning",
+      "scheduledAt": "2026-06-18T08:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-08-morning.jpg",
+      "caption": "there was a girl.\n\nor there wasn't, exactly.\nthere was the feeling of a girl — which is different.\nthe want was real.\ni remember the specific morning when i understood it.\n\nbut there was this other thing.\na thing i was in the middle of.\nsomething i was trying to become.\n\nand i knew if i chose the feeling,\ni would lose the thread of the thing.\n\nso i put it down.\nthe whole idea of it.\nthat's the hardest kind of down to put.\ni've never told anyone that.",
+      "firstComment": "#poetry #becoming #orbs #prose #genzpoetry #solitude",
+      "status": "pending"
+    },
+    {
+      "id": "day-07-afternoon",
+      "scheduledAt": "2026-06-18T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-07-afternoon.jpg",
+      "caption": "one week.\ni wrote almost every day.\n\nthat's the first time in a long time\ni did the thing i said i would do.\n\ni keep waiting for it to feel like more.\nit just feels like:\ni wrote.\ni showed up.\n\nmaybe that's the more.\nmaybe i've been measuring wrong.",
+      "firstComment": "#poetry #orbs #weekone #prose #journaling #becoming",
+      "status": "pending"
+    },
+    {
+      "id": "day-08-afternoon",
+      "scheduledAt": "2026-06-18T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-08-afternoon.jpg",
+      "caption": "i know what i want.\nthat's the honest part.\ni've known it for a while.\n\nthe question is always:\nnow or after?\n\nand i keep choosing after.\n\ni'm not sure what i'm waiting for.\ni think i'm waiting\nuntil it costs less.\n\nit never costs less.\ni keep thinking it will.",
+      "firstComment": "#poetry #orbs #almostlove #prose #genzpoetry #midnightthoughts",
+      "status": "pending"
+    },
+    {
       "id": "day-07-night",
       "scheduledAt": "2026-06-18T22:00:00-04:00",
       "timezone": "America/New_York",
@@ -186,20 +231,11 @@
       "status": "pending"
     },
     {
-      "id": "day-08-morning",
-      "scheduledAt": "2026-06-18T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-08-morning.jpg",
-      "caption": "i wanted her.\n\nand that wanting was real —\ni remember exactly where i was standing when it started.\n\nbut there was this other thing.\na question i hadn't answered yet.\na version of me that hadn't been made.\n\ni chose the question.\n\ni don't know if that was right.\nbut i know it was honest.",
-      "firstComment": "#poetry #becoming #orbs #prose #genzpoetry #solitude",
-      "status": "pending"
-    },
-    {
       "id": "day-08-night",
       "scheduledAt": "2026-06-18T22:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-08-night.jpg",
-      "caption": "i got choked up watching them.\n\nnot because i was jealous —\ni don't think it was that.\n\nbecause i recognized it.\nwhat they had.\nand i knew exactly why i wasn't there.\n\ni chose this.\nthe question. the quest. the not-yet.\n\nsome nights that costs more than others.",
+      "caption": "i got choked up watching them.\n\nnot because i wanted what they had.\nor — not only that.\n\nit was recognition.\nthe specific feeling of: i know what that is.\ni know exactly why i don't have it right now.\n\ni chose this.\nthe question over the answer.\nthe quest over the arrival.\n\nthat's the thing about chosen costs —\nyou chose them.\nthat doesn't make them free.",
       "firstComment": "#poetry #midnightthoughts #orbs #becoming #solitude #prose",
       "status": "pending"
     },
@@ -208,8 +244,17 @@
       "scheduledAt": "2026-06-19T08:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-09-morning.jpg",
-      "caption": "i drew a diagram once.\n\na map of everything i didn't understand.\narrows that didn't connect.\nlabels i crossed out.\nthe word confusion in the center with a circle around it.\n\nthe diagram was not the problem.\nthe diagram was the most honest thing i made that year.\n\nnot knowing is a data point.\nnot a destination, not a failure.\ni was just learning to read it.",
+      "caption": "i make diagrams when the words run out.\n\nboxes. arrows. labels.\nthe elements of confusion, i called this one.\neach box is a thing i don't understand.\n\nthere were a lot of boxes.\n\ni drew lines between some of them —\nnot because i planned to,\nbut because when you look at the boxes long enough\nyou start seeing how they talk to each other.\n\nthat was the first time i thought:\nmaybe not knowing has a structure.\ni've been trying to read it ever since.",
       "firstComment": "#poetry #journaling #orbs #existential #becoming #prose",
+      "status": "pending"
+    },
+    {
+      "id": "day-09-afternoon",
+      "scheduledAt": "2026-06-19T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-09-afternoon.jpg",
+      "caption": "i make diagrams when the words run out.\ntwenty-two boxes this time.\nnone of them connected.\n\ni kept drawing anyway.\n\nthere's something useful in that.\nnot the diagram.\nthe drawing.\nthe act of trying to trace\nsomething you don't understand yet.\n\nthe tracing is the thing.",
+      "firstComment": "#poetry #orbs #prose #journaling #genzpoetry #thinking",
       "status": "pending"
     },
     {
@@ -217,7 +262,7 @@
       "scheduledAt": "2026-06-19T22:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-09-night.jpg",
-      "caption": "someone gestured at the sky once\nand said: all of that.\n\ni nodded.\n\nbut i wasn't looking out.\ni was thinking about the courtyard.\nthe smell of the air in october.\nthe particular sound of a room at 11pm.\n\nthe infinite is fine.\ni use it as a dismissal.\nthere's more going on in here.",
+      "caption": "someone gestured at the sky once and said: all of that.\n\ni nodded.\n\nbut i wasn't looking out.\ni was thinking about the courtyard.\nthe smell of the air in october.\nthe particular sound of a room at 11pm.\n\nthe infinite is fine.\ni use it as a dismissal.\nthere's more going on in here.",
       "firstComment": "#poetry #3amthoughts #orbs #existential #solitude #midnightthoughts",
       "status": "pending"
     },
@@ -226,8 +271,17 @@
       "scheduledAt": "2026-06-20T08:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-10-morning.jpg",
-      "caption": "i've been thinking about\nwhat perfect would look like.\n\nnot the title.\nnot the announcement.\n\njust:\nwaking up and it's you.\nstill here. still easy.\nno performance required.\n\nthe closeness.\nnot the category.\nthat's what i keep coming back to.\n\ni think i always knew\nwhat i was looking for.\ni just didn't have a word for it that fit.",
+      "caption": "i've been thinking about what perfect would look like.\n\nnot the title.\nnot the announcement.\n\njust:\nwaking up and it's you.\nstill here. still easy.\nno performance required.\n\nthe closeness.\nnot the category.\nthat's what i keep coming back to.\n\ni think i always knew what i was looking for.\ni just didn't have a word for it that fit.",
       "firstComment": "#poetry #orbs #becoming #prose #genzpoetry #melancholy",
+      "status": "pending"
+    },
+    {
+      "id": "day-10-afternoon",
+      "scheduledAt": "2026-06-20T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-10-afternoon.jpg",
+      "caption": "i keep imagining it wrong.\nlike it has to be grand.\n\nbut when i'm honest\nit's smaller than that.\n\nit's just:\nstill here.\nstill easy.\ncoffee somewhere.\nnot performing.\n\nthat's the whole thing.\ni've been dramatizing what is actually just\nwanting someone to stay.",
+      "firstComment": "#poetry #orbs #almostlove #prose #genzpoetry #midnightthoughts",
       "status": "pending"
     },
     {
@@ -249,6 +303,15 @@
       "status": "pending"
     },
     {
+      "id": "day-11-afternoon",
+      "scheduledAt": "2026-06-21T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-11-afternoon.jpg",
+      "caption": "the thing i don't say often:\ni want to let people in.\n\ni built the walls.\ni know exactly where they are.\nbut i still want to be found in them.\n\nthat's not a contradiction.\nthat's just being human and scared\nand still wanting\nanyway.\n\nthe crack in the wall isn't damage.\nit's the door.",
+      "firstComment": "#poetry #orbs #prose #vulnerability #genzpoetry #midnightthoughts",
+      "status": "pending"
+    },
+    {
       "id": "day-11-night",
       "scheduledAt": "2026-06-21T22:00:00-04:00",
       "timezone": "America/New_York",
@@ -264,6 +327,15 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-12-morning.jpg",
       "caption": "i woke up disgusted with myself.\n\nnot at anyone else.\nnot at the situation.\nat the parts of me i'd been feeding\nthat didn't deserve to be fed.\n\nthat feeling —\nthat sick, clear, morning feeling —\nwas the most useful thing i'd felt in months.\n\ni started keeping a different kind of list after that.\nnot goals. not plans.\njust: what do i actually want to be?\n\ni love myself more\nwhen i'm honest about that question.",
       "firstComment": "#poetry #orbs #becoming #prose #journaling #solitude",
+      "status": "pending"
+    },
+    {
+      "id": "day-12-afternoon",
+      "scheduledAt": "2026-06-22T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-12-afternoon.jpg",
+      "caption": "by afternoon\nthe sick feeling was just\ninformation.\n\ni wrote down what i didn't like.\nnot to complain.\nto change it.\n\nthere's a real difference.\ncomplaining points at the thing.\nchanging walks toward it.\n\ni'm trying to learn\nthe difference between pointing\nand moving.",
+      "firstComment": "#poetry #orbs #clarity #prose #journaling #genzpoetry",
       "status": "pending"
     },
     {
@@ -285,11 +357,20 @@
       "status": "pending"
     },
     {
+      "id": "day-13-afternoon",
+      "scheduledAt": "2026-06-23T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-13-afternoon.jpg",
+      "caption": "i tried it today.\nsomebody walked by\nand i just said:\nthat's a good color on you.\n\nthey stopped.\ngenuinely surprised.\nand then they smiled.\n\nit cost me nothing.\ni mean nothing.\ni don't know why i don't do this more.\n\nthe 10%\ndoesn't ask much.\njust: try something different.",
+      "firstComment": "#poetry #orbs #prose #kindness #journaling #genzpoetry",
+      "status": "pending"
+    },
+    {
       "id": "day-13-night",
       "scheduledAt": "2026-06-23T22:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-13-night.jpg",
-      "caption": "i had a dream.\n\ni was on a battlefield —\nnot a movie one.\na real one, somehow, with real weight.\n\nand i just stopped.\ni dropped what i was carrying.\ni turned and ran.\n\nthe dream kept going but my body\nwas already deciding:\nthis isn't the war i signed up for.\n\ni woke up clear.\nthat clarity lasted a few days.\ni'm still trying to keep some of it.",
+      "caption": "i had a dream.\n\ni was on a battlefield.\nnot a movie one.\na real one, somehow, with real weight.\n\nand i just stopped.\ni dropped what i was carrying.\ni turned and ran.\n\nthe dream kept going but my body\nwas already deciding:\nthis isn't the war i signed up for.\n\ni woke up clear.\nthat clarity lasted a few days.\ni'm trying to keep some of it.",
       "firstComment": "#poetry #dreamjournal #orbs #3amthoughts #prose #midnightthoughts",
       "status": "pending"
     },
@@ -303,11 +384,20 @@
       "status": "pending"
     },
     {
+      "id": "day-14-afternoon",
+      "scheduledAt": "2026-06-24T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-14-afternoon.jpg",
+      "caption": "i went to text you today.\nopened the thread.\nscrolled up a while.\n\nthere we are.\ntalking about nothing.\nlike there was all the time.\n\ni closed it.\ni don't know what to say yet.\n\ni'll think of something eventually.\nor i won't.\nthat's the grief part —\nyou don't get to know\nwhich one it'll be.",
+      "firstComment": "#poetry #orbs #prose #friendship #grief #genzpoetry",
+      "status": "pending"
+    },
+    {
       "id": "day-14-night",
       "scheduledAt": "2026-06-24T22:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-14-night.jpg",
-      "caption": "two weeks of pages.\n\nwhat i've learned:\nthe quest costs real things.\nwatching others connect and choosing not to isn't painless.\nnot knowing is an honest data point.\nthe infinite is background — the work is inside.\na friendship can end without a villain.\n\nwhat i still don't know:\nwhen to stop choosing the question\nand let someone else be the answer.\n\ngood.\nthat's what the next two weeks are for.",
+      "caption": "two weeks of pages.\n\nwhat i've learned:\nthe quest costs real things.\nthe hardest down to put is the one you chose.\nnot knowing has a structure.\ninfinity is background — this is foreground.\na friendship can end without a villain.\n\nwhat i still don't know:\nwhen to stop choosing the question\nand let someone else be the answer.\n\ngood.\nthat's what the next two weeks are for.",
       "firstComment": "#poetry #journaling #orbs #becoming #prose #weekone",
       "status": "pending"
     },
@@ -316,8 +406,17 @@
       "scheduledAt": "2026-06-25T08:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-15-morning.jpg",
-      "caption": "somebody said something to me once\nthat i didn't know how to hold.\n\nnot a compliment exactly.\nmore like a correction to the story\ni'd been telling about myself.\n\ni took a long time to believe it.\nbut here's what i know now:\neverything i was running from\nwas also running away from me.\n\nthe chains were mine.\ni was the one holding them.\n\ncoming back wasn't surrender.\nit was the first real decision i made.",
+      "caption": "somebody said something to me once\nthat i didn't know how to hold.\n\nnot a compliment exactly.\nmore like a correction to the story\ni'd been telling about myself.\n\ni took a long time to believe it.\n\nbut here's what i know now:\neverything i was running from\nwas also running away from me.\n\nthe chains were mine.\ni was the one holding them.\n\ncoming back wasn't surrender.\nit was the first real decision i made.",
       "firstComment": "#poetry #becoming #orbs #prose #declaration #journaling",
+      "status": "pending"
+    },
+    {
+      "id": "day-15-afternoon",
+      "scheduledAt": "2026-06-25T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-15-afternoon.jpg",
+      "caption": "somebody told me\ni was built for something bigger.\nthey said it like a fact\nnot a compliment.\n\ni argued with them.\nin my head, later, at home.\nfor a long time.\n\ni kept losing.\n\nwhen someone sees you\nbigger than you've seen yourself\nyou can argue\nor\nat some point\nyou can try it on.",
+      "firstComment": "#poetry #orbs #prose #becoming #journaling #genzpoetry",
       "status": "pending"
     },
     {
@@ -334,8 +433,17 @@
       "scheduledAt": "2026-06-26T08:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-16-morning.jpg",
-      "caption": "nobody handed me a map for this.\n\nnot because they didn't want to —\nbecause they'd never been here.\nnone of them.\n\nand there was this moment at the threshold\nwhere i understood what that meant.\nnot weight — freedom.\nnot pressure — permission.\n\ni was writing the directions\nfor the people coming after me.\n\ni didn't know what i was doing.\nbut i was doing it anyway.\nthat felt like something.",
+      "caption": "nobody in my family had walked through this door before.\n\ni didn't know what to do with that.\nso i just walked through.\n\nand there was this moment at the threshold\nwhere i understood what it meant.\nnot weight — freedom.\nnot pressure — permission.\n\ni was writing the directions\nfor the people coming after me.\ni didn't know what i was doing.\nbut i was doing it anyway.\nthat felt like something.",
       "firstComment": "#poetry #firstgen #orbs #becoming #pioneer #prose",
+      "status": "pending"
+    },
+    {
+      "id": "day-16-afternoon",
+      "scheduledAt": "2026-06-26T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-16-afternoon.jpg",
+      "caption": "i didn't know what would be on the other side.\ni just knew\nnobody in my family\nhad come this way before.\n\nand that felt like\neither a warning\nor a permission slip.\n\ni took it as permission.\nthat's probably the only thing\nthat made the difference.",
+      "firstComment": "#poetry #orbs #firstgeneration #prose #becoming #genzpoetry",
       "status": "pending"
     },
     {
@@ -357,6 +465,15 @@
       "status": "pending"
     },
     {
+      "id": "day-17-afternoon",
+      "scheduledAt": "2026-06-27T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-17-afternoon.jpg",
+      "caption": "i've been reading the structures.\nnot to fight them.\nto understand\nwhat i built\nand what was built for me\nand the difference.\n\nsome bars are real.\nsome are just stories\ni've been telling long enough\nthat they calcified.\n\nthe work\nis knowing which is which.",
+      "firstComment": "#poetry #orbs #prose #freedom #journaling #genzpoetry",
+      "status": "pending"
+    },
+    {
       "id": "day-17-night",
       "scheduledAt": "2026-06-27T22:00:00-04:00",
       "timezone": "America/New_York",
@@ -370,8 +487,17 @@
       "scheduledAt": "2026-06-28T08:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-18-morning.jpg",
-      "caption": "there's a version of my life\nthat would have been fine.\n\nreally. genuinely fine.\nstable, sensible, no complaints.\n\nbut fine doesn't answer the question.\nand i had this question in me\nthat would not sit down.\n\nso i made the harder choice.\nand it has been harder.\nbut it has also been mine.\n\nthat's the difference.\nthat's the whole difference.",
+      "caption": "there's a version of my life\nthat would have been fine.\n\nreally. genuinely fine.\nstable, sensible, no complaints.\n\nbut fine doesn't answer the question.\nand i had this question in me\nthat would not sit down.\n\nso i made the harder choice.\nand it has been harder.\n\nbut it has also been mine.\nthat's the difference.\nthat's the whole difference.",
       "firstComment": "#poetry #becoming #orbs #prose #declaration #genzpoetry",
+      "status": "pending"
+    },
+    {
+      "id": "day-18-afternoon",
+      "scheduledAt": "2026-06-28T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-18-afternoon.jpg",
+      "caption": "fine would have been easy.\ni think about fine sometimes.\nit's a real thing.\ni don't want to be snobbish about fine.\n\nbut every time i get close to it\nthere's this question.\n\nthe question is:\nis this it?\n\nand the answer keeps coming back:\nnot yet.\n\nso i keep walking.",
+      "firstComment": "#poetry #orbs #prose #resistance #becoming #genzpoetry",
       "status": "pending"
     },
     {
@@ -393,6 +519,15 @@
       "status": "pending"
     },
     {
+      "id": "day-19-afternoon",
+      "scheduledAt": "2026-06-29T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-19-afternoon.jpg",
+      "caption": "the interesting thing\nis it doesn't change\nwhen people can see it.\n\ni thought it would.\ni thought the honest version\nonly came out at 2am\nwhen no one was watching.\n\nbut it's just: there.\ndoing the thing.\ndoesn't care if it's noon or midnight.\n\nthat was good to learn.",
+      "firstComment": "#poetry #orbs #prose #creative #journaling #genzpoetry",
+      "status": "pending"
+    },
+    {
       "id": "day-19-night",
       "scheduledAt": "2026-06-29T22:00:00-04:00",
       "timezone": "America/New_York",
@@ -408,6 +543,15 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-20-morning.jpg",
       "caption": "somewhere in the middle of all this\ni stopped treating want and work\nlike they were fighting.\n\nthey were just both trying\nto get somewhere.\n\ni think the distance between them\nwas always the wrong measure.\n\ni'm still choosing the question.\nbut i've stopped pretending\nthe answer can't sit in the same room.",
       "firstComment": "#poetry #orbs #becoming #prose #genzpoetry #melancholy",
+      "status": "pending"
+    },
+    {
+      "id": "day-20-afternoon",
+      "scheduledAt": "2026-06-30T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-20-afternoon.jpg",
+      "caption": "i used to think\nwanting and working\nwere opposites.\nlike i had to pick one.\n\ni think that cost me something.\n\nthey're not opposites.\nthey go the same direction.\nthey always did.\ni was just standing at the wrong angle\nto see it.",
+      "firstComment": "#poetry #orbs #prose #becoming #journaling #genzpoetry",
       "status": "pending"
     },
     {
@@ -429,177 +573,22 @@
       "status": "pending"
     },
     {
+      "id": "day-21-afternoon",
+      "scheduledAt": "2026-07-01T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-21-afternoon.jpg",
+      "caption": "three weeks ago\ni would have planned the next seven things.\n\ni do that less now.\nnot because i don't care.\nbecause showing up for today\nturned out to be enough\nto get to tomorrow.\n\nsmall thing.\nmine though.",
+      "firstComment": "#poetry #orbs #prose #threeweeks #journaling #becoming",
+      "status": "pending"
+    },
+    {
       "id": "day-21-night",
       "scheduledAt": "2026-07-01T22:00:00-04:00",
       "timezone": "America/New_York",
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-21-night.jpg",
-      "caption": "three weeks of pages.\n\nwhat i've learned:\nyou can return and still be moving forward.\nbeing first means writing the directions.\nthe cage is the story, not the obstacle.\nrefusing the safe path is not the same as being reckless.\nsome work only happens after midnight.\n\nwhat i still don't know:\nhow to hold the question and the answer\nin the same hand.\n\ngood.\nthat's what the second half is for.",
+      "caption": "three weeks of pages.\n\nwhat i've learned:\nyou can return and still be moving forward.\nbeing first means writing the directions.\nthe cage is the story, not the obstacle.\nrefusing the safe path isn't reckless.\nsome work only happens after midnight.\n\nwhat i still don't know:\nhow to hold the question and the answer\nin the same hand.\n\ngood.\nthat's what the second half is for.",
       "firstComment": "#poetry #journaling #orbs #weekone #becoming #genzpoetry",
       "status": "pending"
-    },
-    {
-      "id": "day-22-morning",
-      "scheduledAt": "2026-07-02T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-22-morning.jpg",
-      "caption": "i put this down once.\n\nthe notebook. the question. the version of me\nthat wrote things at midnight\nand meant every word.\n\nlife needed both hands for a while\nand so i set it aside.\n\nbut here's the thing about things\nyou actually need:\nthey wait.\n\ni came back and it was right where i left it.\na little dusty. still warm.\nstill mine.",
-      "firstComment": "#poetry #journaling #orbs #becoming #return #prose",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-22-night",
-      "scheduledAt": "2026-07-02T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-22-night.jpg",
-      "caption": "i needed this.\n\nmore than i thought i did\nuntil i did it again.\n\nthere is a kind of thinking\nthat only happens when you write.\nwhere the sentence goes somewhere\nyou didn't plan.\n\nand you find out what you actually think\nbecause you watched yourself write it.\n\ni missed this.\ni'm not putting it down again.",
-      "firstComment": "#poetry #orbs #journaling #solitude #prose #midnightthoughts",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-23-morning",
-      "scheduledAt": "2026-07-03T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-23-morning.jpg",
-      "caption": "i started paying attention differently.\n\nnot to what people said\nbut to the ratio.\n\nhow much of a gathering\nwas hunger.\nhow much was hurt.\nhow much was just — reflex.\npattern. loop. repeat.\n\ni don't say this to be above it.\ni say it because i found myself in the ratio too.\nand i had to decide\nwhat i wanted to add.",
-      "firstComment": "#poetry #orbs #journaling #existential #becoming #prose",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-23-night",
-      "scheduledAt": "2026-07-03T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-23-night.jpg",
-      "caption": "some losses make you angry.\n\nthis one made me careful.\n\nand careful is its own kind of grief.\nbecause being careful means\nyou don't do what was natural.\nyou measure the distance before you cross it.\nyou edit the first thought.\n\ni miss the before.\nwhen i didn't have to do any of that.",
-      "firstComment": "#poetry #orbs #solitude #melancholy #prose #3amthoughts",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-24-morning",
-      "scheduledAt": "2026-07-04T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-24-morning.jpg",
-      "caption": "i've spent a lot of time\nlooking up.\n\nand what i keep coming back to is:\nthe infinite is not the point.\n\nthe point is the place you stand\nwhen you look at it.\n\nif you know where you're standing\nyou can look at anything.\nif you don't —\nthe infinite is just very large loss.",
-      "firstComment": "#poetry #orbs #existential #becoming #prose #solitude",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-24-night",
-      "scheduledAt": "2026-07-04T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-24-night.jpg",
-      "caption": "four weeks ago i said:\nnot knowing is a data point.\n\ni still believe that.\nbut i've also been working.\nquietly. steadily.\nfilling in the diagram.\n\nnot the whole thing.\nbut enough that i can see\nwhich parts i was wrong about\nand which parts were right all along.\n\nboth are useful.\nboth are mine now.",
-      "firstComment": "#poetry #orbs #journaling #becoming #existential #genzpoetry",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-25-morning",
-      "scheduledAt": "2026-07-05T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-25-morning.jpg",
-      "caption": "i used to maintain the walls\nbecause i thought what was inside\ncouldn't handle the outside.\n\nbut then the crack happened\nand i found out:\nit was tougher than i thought.\n\nnot invincible.\nnot without pain.\nbut tougher.\n\nthe light comes in now.\nand the thing inside\nis still here.\nstill working.\nthat's enough.",
-      "firstComment": "#poetry #orbs #becoming #almostlove #prose #genzpoetry",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-25-night",
-      "scheduledAt": "2026-07-05T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-25-night.jpg",
-      "caption": "i'm not trying to forget the cage.\n\ni want to remember every bar.\nbecause that's what taught me\nwhere the door was.\n\nthe door was always there.\ni just couldn't see it\nuntil i knew the structure well enough\nto find the gap.\n\nand now i'm out.\ncarrying the knowledge of the shape.\nthat's not baggage.\nthat's a blueprint.",
-      "firstComment": "#poetry #orbs #becoming #existential #prose #declaration",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-26-morning",
-      "scheduledAt": "2026-07-06T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-26-morning.jpg",
-      "caption": "i looked back once.\n\nthere was a path.\n\ni made it just by walking.\njust by not stopping.\nby showing up when i didn't know the answer\nand being present for the part where it revealed itself.\n\nand somebody somewhere\nis going to walk that path after me.\nand i'll never meet them.\nand that's fine.\n\nthat's the whole thing.",
-      "firstComment": "#poetry #firstgen #orbs #becoming #pioneer #prose",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-26-night",
-      "scheduledAt": "2026-07-06T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-26-night.jpg",
-      "caption": "i used to think that doing the work alone\nwas the point of the work.\n\nbut i've been changing my mind.\n\nthe solitude was the method, not the goal.\ni needed the quiet to hear myself clearly.\nbut hearing yourself clearly\nso you can say it back to the room —\n\nthat's the next part.\nthat's what it was practice for.",
-      "firstComment": "#poetry #orbs #solitude #artandwords #prose #becoming",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-27-morning",
-      "scheduledAt": "2026-07-07T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-27-morning.jpg",
-      "caption": "i've been staying cleaner.\n\nnot because i became disciplined.\nbecause i ran the experiment.\ni saw what the haze made of me.\nand it was less interesting\nthan what the clarity makes of me.\n\nthat's the whole argument.\nno willpower required.\njust preference.\n\ni prefer the version that shows up\nfor its own life.",
-      "firstComment": "#poetry #orbs #becoming #prose #journaling #solitude",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-27-night",
-      "scheduledAt": "2026-07-07T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-27-night.jpg",
-      "caption": "i've been doing this long enough\nto know the pace of it.\n\nthere are sprint periods.\nbig understanding periods.\nand then there are the in-between times\nwhere nothing is happening\nbut the sediment is settling.\n\ni used to confuse settling for stopping.\nthey're different.\n\ni'm in a settling period.\ni'm letting it settle.\nthat's also work.",
-      "firstComment": "#poetry #orbs #solitude #prose #midnightthoughts #journaling",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-28-morning",
-      "scheduledAt": "2026-07-08T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-28-morning.jpg",
-      "caption": "i only have a few pages left\nin this notebook.\n\nand i find myself writing smaller.\nnot because i have less to say.\nbecause i want each word\nto earn its space.\n\nthat's new for me.\nat 18 i wrote like i had infinite pages.\n\nmaybe that was right then.\nbut right now the scarcity\nis making every sentence\nfeel like a decision.\n\ni like the weight of that.",
-      "firstComment": "#poetry #journaling #orbs #becoming #prose #genzpoetry",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-28-night",
-      "scheduledAt": "2026-07-08T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-28-night.jpg",
-      "caption": "four weeks of pages.\n\nwhat i've learned:\nyou can return and still be moving forward.\nthe cage is a text, not a trap.\nthe solo work was practice for the together work.\nclarity is preference, not discipline.\ndrift is also work.\n\nwhat i still don't know:\nhow the last two days are supposed to end.\n\ngood.\ni don't think endings are supposed to be known in advance.",
-      "firstComment": "#poetry #journaling #orbs #weekone #becoming #genzpoetry",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-29-morning",
-      "scheduledAt": "2026-07-09T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-29-morning.jpg",
-      "caption": "i keep thinking about what a notebook actually is.\n\nnot the object.\nthe structure of it.\n\nit's a field.\neverything in it still moving in relation to everything else.\nthe thing i wrote on page one\nchanges when i write page twenty-nine.\n\nnot because i edited it.\nbecause i am now reading it\nfrom further along.\n\neverything here is in orbit.\nthat's the whole design.",
-      "firstComment": "#poetry #orbs #journaling #becoming #prose #genzpoetry",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-29-night",
-      "scheduledAt": "2026-07-09T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-29-night.jpg",
-      "caption": "i kept this.\n\nthe embarrassing parts.\nthe parts i got wrong.\nthe nights where the writing was just\nme trying to talk myself down\nfrom something.\n\ni kept it because it happened.\nand what happened is mine.\nand mine is not nothing.\nmine is everything i was made of\nat a specific time.\n\nthat's the archive.\nthat's the whole project.",
-      "firstComment": "#poetry #journaling #orbs #3amthoughts #prose #solitude",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-30-morning",
-      "scheduledAt": "2026-07-10T08:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-30-morning.jpg",
-      "caption": "day thirty.\n\ni'm not the same person\nwho wrote day one.\n\nbut i'm not unrecognizable either.\nmore like: the same song\nplayed with better hands.\n\ni know more of what i am.\ni have better words for the parts\nthat used to just sit there unnamed.\n\ni have a notebook that says i showed up.\n\nthat's not nothing.\nthat's almost everything.",
-      "firstComment": "#poetry #journaling #orbs #becoming #prose #30days",
-      "status": "awaiting-image"
-    },
-    {
-      "id": "day-30-night",
-      "scheduledAt": "2026-07-10T22:00:00-04:00",
-      "timezone": "America/New_York",
-      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-30-night.jpg",
-      "caption": "thirty days. thirty pages.\n\nwhat i know now that i didn't know then:\nthe quest was the point, not the answer.\nthe cage was the story, not the obstacle.\nthe solo work was practice, not the destination.\nthe infinite is background. this is foreground.\nbecoming is not a destination. it's a direction.\n\nthe notebook is full.\ni am not.\n\nthat's the most important thing i wrote.\n\nthank you for reading it with me.\n\norbs is just getting started.",
-      "firstComment": "#poetry #journaling #orbs #becoming #30days #genzpoetry",
-      "pinnedComment": "thank you for 30 days of pages. orbs continues — follow for what's next. ◉",
-      "needsManualPin": true,
-      "status": "awaiting-image"
     }
   ]
 }
