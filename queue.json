@@ -93,7 +93,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-03-night.jpg",
       "caption": "i bow my head to the past,\nbut the future kneels to me.\n\ni wrote that at 18 in a notebook\nnobody was ever supposed to read.\n\ni still believe it.\nsome nights it's the only thing i believe.\nthat's enough to sleep on.",
       "firstComment": "#poetry #midnightthoughts #orbs #declaration #journaling #becoming",
-      "status": "pending"
+      "status": "posted",
+      "postedAt": "2026-06-15T02:39:07.858Z",
+      "mediaId": "17953256304183536",
+      "commentId": "18095981075265182"
     },
     {
       "id": "day-04-morning",
