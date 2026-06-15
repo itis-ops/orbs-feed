@@ -46,7 +46,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-02-morning.jpg",
       "caption": "it has been over a month now.\nthings have begun to roll and unfold\nthe way they do every fall.\n\nridiculously hot for october.\nbut the familiar smell of change\nhas started to settle over these aged grounds.\n\ni think back to the summer\nand realize how beautiful memories are.\nand how experiences are nothing\nwithout storage.\n\nso i'm storing them. all of them.\nthat's what this page is.",
       "firstComment": "#poetry #journaling #orbs #becoming #midnightthoughts #genzpoetry",
-      "status": "pending"
+      "status": "posted",
+      "postedAt": "2026-06-15T00:28:30.733Z",
+      "mediaId": "18108572449945943",
+      "commentId": "17985299120835314"
     },
     {
       "id": "day-02-night",
@@ -55,7 +58,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-02-night.jpg",
       "caption": "i miss last year.\nmarch. parties. summer.\nsaturday night.\nten minutes ago.\n\ntime is two faced.\ntime is strength.\ntime is the answer.\n\nit begins tonight. i begin tonight,\nin my dreams. my thoughts die\nand relive tonight.\n\nwhen my eyes reopen in the morning\ni will be new. different.\ni will be a change.",
       "firstComment": "#poetry #3amthoughts #orbs #nostalgia #prose #dreamjournal",
-      "status": "pending"
+      "status": "posted",
+      "postedAt": "2026-06-15T00:28:45.332Z",
+      "mediaId": "18097561162935611",
+      "commentId": "18332236354254534"
     },
     {
       "id": "day-03-morning",
@@ -64,7 +70,9 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-03-morning.jpg",
       "caption": "i have decided to change my life.\n\nthis is day one.\n\ni spill it all out on the table\nlike an unwritten script,\na blank blueprint,\na radical idea.\n\nno distractions. just the creation of ideas,\nthe reflection of ideas,\nand above all, the search for answers.\n\nNO. the creation of answers.",
       "firstComment": "#poetry #becoming #orbs #journaling #transformation #college",
-      "status": "pending"
+      "status": "error",
+      "error": "Graph POST 400: Only photo or video can be accepted as media type.",
+      "erroredAt": "2026-06-15T00:28:46.392Z"
     },
     {
       "id": "day-03-afternoon",
@@ -73,7 +81,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-03-afternoon.jpg",
       "caption": "i'm not here to say i'm taking\nsome spiritual journey to find \"who i am.\"\n\ni'm here to make answers.\nto make myself.\n\ni don't know exactly what i'm looking for.\nwho does?\nbut i know my duty is to look.\n\ni cannot describe this idea to anyone\nexcept me.\nand now, i guess, to you.",
       "firstComment": "#poetry #genzpoetry #orbs #becoming #prose #existential",
-      "status": "pending"
+      "status": "posted",
+      "postedAt": "2026-06-15T00:29:09.499Z",
+      "mediaId": "18107636249071150",
+      "commentId": "17920184178162819"
     },
     {
       "id": "day-03-night",
