@@ -1,10 +1,13 @@
 name: publish
 
 on:
+  push:
+    branches: [main]
+    # push trigger fires immediately on every content/queue push (human commits).
+    # The publisher bot commits use "[skip ci]" so they don't re-trigger this.
   schedule:
-    # every 30 minutes; slot times live in queue.json, this just needs to be
-    # finer than the spacing between posts. (GitHub may delay cron under load.)
-    # every 15 min — GitHub cron can lag; tighter interval catches overdue slots faster
+    # GitHub free-tier cron fires ~3x/day regardless of interval written here.
+    # The push trigger above is the reliable same-minute firing mechanism.
     - cron: "*/15 * * * *"
   workflow_dispatch:
     inputs:
