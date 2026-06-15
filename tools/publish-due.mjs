@@ -31,7 +31,11 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO_ROOT = path.resolve(__dirname, "..");
 
 const GRAPH_VERSION = process.env.GRAPH_API_VERSION || "v21.0";
-const GRAPH = `https://graph.facebook.com/${GRAPH_VERSION}`;
+// Set GRAPH_BASE=https://graph.instagram.com for Instagram Login API tokens (IGA...).
+// Version is appended automatically.
+const GRAPH = process.env.GRAPH_BASE
+  ? `${process.env.GRAPH_BASE.replace(/\/$/, "")}/${GRAPH_VERSION}`
+  : `https://graph.facebook.com/${GRAPH_VERSION}`;
 
 function parseArgs(argv) {
   const a = { dryRun: false, queue: path.join(REPO_ROOT, "queue.json"), now: null, limit: 3, id: null };

@@ -1,0 +1,33 @@
+name: refresh-token
+
+# Rolls the long-lived Instagram token forward before it can expire, so the
+# publisher never goes dark. No-op (green) until the refresh secrets are set.
+on:
+  schedule:
+    # 06:17 UTC on the 1st and 15th of each month (well inside the ~60-day window)
+    - cron: "17 6 1,15 * *"
+  workflow_dispatch:
+
+concurrency:
+  group: refresh-token
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh IG_ACCESS_TOKEN secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          META_APP_ID: ${{ secrets.META_APP_ID }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
+          GH_TOKEN: ${{ secrets.ACTIONS_PAT }}
+          GH_REPO: ${{ github.repository }}
+          GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
+        run: node tools/refresh-secret.mjs
