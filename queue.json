@@ -112,6 +112,15 @@
       "commentId": "17859635094647646"
     },
     {
+      "id": "day-04-afternoon",
+      "scheduledAt": "2026-06-15T17:00:00-04:00",
+      "timezone": "America/New_York",
+      "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-04-afternoon.jpg",
+      "caption": "we talked every day for a while.\n\nthe way you talk to someone\nwhen you don't know yet\nwhat you are to each other.\n\nthere was a morning she asked me something\nand i answered and then she laughed\nand i thought: right. this.\ni thought it clearly.\nthen i let it go.\n\ni'm not sure why i keep doing that.\nletting clear things go.",
+      "firstComment": "#poetry #almostlove #orbs #prose #genzpoetry #midnightthoughts",
+      "status": "pending"
+    },
+    {
       "id": "day-04-night",
       "scheduledAt": "2026-06-15T22:00:00-04:00",
       "timezone": "America/New_York",
