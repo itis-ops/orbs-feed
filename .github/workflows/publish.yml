@@ -6,16 +6,19 @@ on:
     # push trigger fires immediately on every content/queue push (human commits).
     # The publisher bot commits use "[skip ci]" so they don't re-trigger this.
   schedule:
-    # GitHub free-tier cron fires ~3x/day regardless of interval written here.
-    # The push trigger above is the reliable same-minute firing mechanism.
-    - cron: "*/15 * * * *"
+    # Backup only (when Mac is asleep). GitHub free-tier cron fires ~3x/day max —
+    # do NOT rely on this. Primary scheduler: tools/install-scheduler.sh (launchd).
+    - cron: "5 12 * * *"   # ~8:05am ET
+    - cron: "5 21 * * *"   # ~5:05pm ET
+    - cron: "5 2 * * *"    # ~10:05pm ET
   workflow_dispatch:
-  workflow_call: # allows heartbeat.yml to call this directly
     inputs:
       dry_run:
         description: "Dry run (log only, do not publish)"
         type: boolean
         default: false
+  repository_dispatch:
+    types: [publish]
 
 # allow the job to commit the updated queue.json back to the repo
 permissions:

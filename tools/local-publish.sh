@@ -1,0 +1,86 @@
+#!/usr/bin/env bash
+# local-publish.sh — primary Orbs publisher (macOS launchd, every 15 min).
+#
+# Pulls latest queue, publishes due posts directly via Meta Graph API using
+# credentials from ../orbs/.env.local, commits queue state back to GitHub.
+# Uses a lock file so this never races GitHub Actions publish runs.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+ORBS_ENV="$(cd "$ROOT/../orbs" && pwd)/.env.local"
+LOG="/tmp/orbs-publish.log"
+LOCKDIR="/tmp/com.orbs.publisher.lockdir"
+NODE="$(command -v node)"
+
+ts() { date "+%Y-%m-%d %H:%M:%S"; }
+log() { echo "[$(ts)] $*" >> "$LOG"; }
+
+# Rotate log if too large
+if [[ -f "$LOG" ]] && [[ "$(wc -l < "$LOG" | tr -d ' ')" -gt 800 ]]; then
+  tail -400 "$LOG" > "${LOG}.tmp" && mv "${LOG}.tmp" "$LOG"
+fi
+
+if ! mkdir "$LOCKDIR" 2>/dev/null; then
+  log "skip: another publish run in progress"
+  exit 0
+fi
+trap 'rmdir "$LOCKDIR" 2>/dev/null || true' EXIT
+
+if [[ ! -f "$ORBS_ENV" ]]; then
+  log "ERROR: missing $ORBS_ENV (IG_USER_ID, IG_ACCESS_TOKEN required)"
+  exit 1
+fi
+
+if [[ -z "$NODE" ]]; then
+  log "ERROR: node not found in PATH"
+  exit 1
+fi
+
+# Export credentials without sourcing arbitrary shell (env file is KEY=VALUE only)
+while IFS= read -r line || [[ -n "$line" ]]; do
+  line="${line%%#*}"
+  line="$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
+  [[ -z "$line" || "$line" != *=* ]] && continue
+  export "$line"
+done < "$ORBS_ENV"
+
+if [[ -z "${IG_USER_ID:-}" || -z "${IG_ACCESS_TOKEN:-}" ]]; then
+  log "ERROR: IG_USER_ID or IG_ACCESS_TOKEN missing in $ORBS_ENV"
+  exit 1
+fi
+
+cd "$ROOT"
+
+log "start publish run"
+
+if ! git pull --ff-only origin main >> "$LOG" 2>&1; then
+  log "WARN: git pull failed — continuing with local queue.json"
+fi
+
+set +e
+output=$("$NODE" tools/publish-due.mjs 2>&1)
+exit_code=$?
+set -e
+
+while IFS= read -r line; do log "$line"; done <<< "$output"
+
+if [[ $exit_code -ne 0 ]]; then
+  log "ERROR: publish-due.mjs exited $exit_code"
+  exit "$exit_code"
+fi
+
+if [[ -n "$(git status --porcelain queue.json)" ]]; then
+  git add queue.json
+  git commit -m "publish: update queue state [skip ci]" >> "$LOG" 2>&1
+  if git push origin main >> "$LOG" 2>&1; then
+    log "queue.json pushed to origin/main"
+  else
+    log "ERROR: git push failed — queue updated locally but not on GitHub"
+    exit 1
+  fi
+else
+  log "no queue changes"
+fi
+
+log "done"
+exit 0
