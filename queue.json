@@ -154,9 +154,12 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-05-afternoon.jpg",
       "caption": "the thing about mystery\nis it's rarely somewhere else.\nit's the same room\nat a different angle.\n\nthat spilled tray this morning\nmade a shape i won't see again.\ni stood there looking at it\nlonger than i needed to.\n\nthat's all mystery asks, i think.\njust: stop. look.\n\nyou don't have to go anywhere.",
       "firstComment": "#poetry #orbs #prose #midnightthoughts #journaling #genzpoetry",
-      "status": "error",
+      "status": "posted",
       "error": "Graph POST 400: Invalid OAuth access token - Cannot parse access token",
-      "erroredAt": "2026-06-16T22:42:48.491Z"
+      "erroredAt": "2026-06-16T22:44:16.873Z",
+      "postedAt": "2026-06-16T22:44:56.937Z",
+      "mediaId": "18076034078308120",
+      "commentId": "18106814116791700"
     },
     {
       "id": "day-05-night",
