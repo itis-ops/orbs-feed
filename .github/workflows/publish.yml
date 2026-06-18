@@ -6,12 +6,16 @@ on:
     # push trigger fires immediately on every content/queue push (human commits).
     # The publisher bot commits use "[skip ci]" so they don't re-trigger this.
   schedule:
-    # Primary cloud scheduler. Runs every 30 min so each slot (8am/5pm/10pm ET)
-    # fires within ~30 min regardless of whether a local machine is awake.
-    # Safe to run often: publish-due.mjs is idempotent (only posts due+pending,
-    # never double-posts) and this repo is public (free Actions minutes).
-    # GitHub may skip some scheduled ticks under load; the density covers for it.
+    # Cloud scheduler (backup when Mac launchd is asleep/off).
+    # GitHub's */30 cron often only fires ~2-3x/day on free tier, so we also
+    # target the three ET posting windows directly (EDT = UTC-4).
     - cron: "*/30 * * * *"
+    - cron: "0 12 * * *"    #  8:00am ET
+    - cron: "30 12 * * *"   #  8:30am ET
+    - cron: "0 21 * * *"    #  5:00pm ET
+    - cron: "30 21 * * *"   #  5:30pm ET
+    - cron: "0 2 * * *"     # 10:00pm ET (previous calendar evening in ET)
+    - cron: "30 2 * * *"    # 10:30pm ET
   workflow_dispatch:
     inputs:
       dry_run:

@@ -7,7 +7,13 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+CONFIG_ENV="$HOME/.config/orbs/publisher.env"
 ORBS_ENV="$(cd "$ROOT/../orbs" && pwd)/.env.local"
+if [[ -f "$CONFIG_ENV" ]]; then
+  ENV_FILE="$CONFIG_ENV"
+else
+  ENV_FILE="$ORBS_ENV"
+fi
 LOG="/tmp/orbs-publish.log"
 LOCKDIR="/tmp/com.orbs.publisher.lockdir"
 NODE="$(command -v node)"
@@ -26,8 +32,8 @@ if ! mkdir "$LOCKDIR" 2>/dev/null; then
 fi
 trap 'rmdir "$LOCKDIR" 2>/dev/null || true' EXIT
 
-if [[ ! -f "$ORBS_ENV" ]]; then
-  log "ERROR: missing $ORBS_ENV (IG_USER_ID, IG_ACCESS_TOKEN required)"
+if [[ ! -f "$ENV_FILE" ]]; then
+  log "ERROR: missing $ENV_FILE (IG_USER_ID, IG_ACCESS_TOKEN required)"
   exit 1
 fi
 
@@ -37,15 +43,17 @@ if [[ -z "$NODE" ]]; then
 fi
 
 # Export credentials without sourcing arbitrary shell (env file is KEY=VALUE only)
+# Clear any inherited GRAPH_BASE — the token is a Meta long-lived token (graph.facebook.com)
+unset GRAPH_BASE
 while IFS= read -r line || [[ -n "$line" ]]; do
   line="${line%%#*}"
   line="$(echo "$line" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')"
   [[ -z "$line" || "$line" != *=* ]] && continue
   export "$line"
-done < "$ORBS_ENV"
+done < "$ENV_FILE"
 
 if [[ -z "${IG_USER_ID:-}" || -z "${IG_ACCESS_TOKEN:-}" ]]; then
-  log "ERROR: IG_USER_ID or IG_ACCESS_TOKEN missing in $ORBS_ENV"
+  log "ERROR: IG_USER_ID or IG_ACCESS_TOKEN missing in $ENV_FILE"
   exit 1
 fi
 
