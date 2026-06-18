@@ -242,7 +242,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-07-afternoon.jpg",
       "caption": "one week.\ni wrote almost every day.\n\nthat's the first time in a long time\ni did the thing i said i would do.\n\ni keep waiting for it to feel like more.\nit just feels like:\ni wrote.\ni showed up.\n\nmaybe that's the more.\nmaybe i've been measuring wrong.",
       "firstComment": "#poetry #orbs #weekone #prose #journaling #becoming",
-      "status": "pending"
+      "status": "posted",
+      "postedAt": "2026-06-18T21:12:31.941Z",
+      "mediaId": "18165271831446938",
+      "commentId": "18105956326955293"
     },
     {
       "id": "day-08-afternoon",
@@ -251,7 +254,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-08-afternoon.jpg",
       "caption": "i know what i want.\nthat's the honest part.\ni've known it for a while.\n\nthe question is always:\nnow or after?\n\nand i keep choosing after.\n\ni'm not sure what i'm waiting for.\ni think i'm waiting\nuntil it costs less.\n\nit never costs less.\ni keep thinking it will.",
       "firstComment": "#poetry #orbs #almostlove #prose #genzpoetry #midnightthoughts",
-      "status": "pending"
+      "status": "posted",
+      "postedAt": "2026-06-18T21:12:47.690Z",
+      "mediaId": "18083755115443049",
+      "commentId": "18153713338491396"
     },
     {
       "id": "day-07-night",
