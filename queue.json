@@ -386,7 +386,10 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-11-night.jpg",
       "caption": "some feelings have timers on them.\n\nthey don't detonate dramatically.\nthey just go off at 2pm on a tuesday\nwhile you're thinking about something else.\n\nand then you know.\nyou've been carrying it for a while.\nthe timer ran out quietly.\n\nyou're the last one to find out.",
       "firstComment": "#poetry #orbs #3amthoughts #dreamjournal #melancholy #prose",
-      "status": "pending"
+      "status": "posted",
+      "postedAt": "2026-06-22T02:49:44.643Z",
+      "mediaId": "18112398011490311",
+      "commentId": "18121463386739962"
     },
     {
       "id": "day-12-morning",
