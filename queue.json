@@ -930,7 +930,9 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-26-night.jpg",
       "caption": "i'm pretty content.\nmy room is pretty rad\nwith all of the art hung up.\nplenty of memories to cherish.\ni'm stable and i have returned.\n\nno metaphor tonight.\njust a kid in a room he made,\nsurrounded by things he made,\ncalling it rad\nin his own handwriting.\n\nafter all the war journals,\nthe transformations,\nthe declarations at midnight —\nfive plain sentences\nabout a room.\n\nsome entries you outgrow.\nsome you grow into.\n\nthis one i'm still growing into:\nthe discipline of being\nsimply, unspectacularly\nokay.",
       "firstComment": "#poetry #orbs #home #prose #contentment #journaling",
-      "status": "pending"
+      "status": "error",
+      "error": "Graph POST 400: Only photo or video can be accepted as media type.",
+      "erroredAt": "2026-07-17T02:04:31.826Z"
     },
     {
       "id": "day-27-morning",
