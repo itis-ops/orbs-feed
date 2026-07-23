@@ -1111,7 +1111,9 @@
       "imageUrl": "https://raw.githubusercontent.com/itis-ops/orbs-feed/main/posts/day-31-night.jpg",
       "caption": "there's this girl\nwho thinks she's the shit,\nand tonight she dragged me\nout of my dorm\nand across a state line.\n\nshe always picks me up\nwhen i'm just out of the shower.\nshe knows she does it\non PURPOSE.\n\nsome people arrive in your life\nlike weather.\nyou don't schedule them.\nyou just get rained on\nand call it a good night.",
       "firstComment": "#poetry #orbs #midnightthoughts #friendship #prose #college",
-      "status": "pending"
+      "status": "error",
+      "error": "fetch failed",
+      "erroredAt": "2026-07-23T03:26:53.124Z"
     },
     {
       "id": "day-32-morning",
