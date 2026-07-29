@@ -52,6 +52,24 @@ function parseArgs(argv) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+/** Reset items stuck in "posting" (crashed mid-run) back to pending. */
+const STALE_POSTING_MS = 45 * 60 * 1000;
+
+function recoverStalePosting(items, nowMs) {
+  let n = 0;
+  for (const it of items) {
+    if (it.status !== "posting") continue;
+    const claimedAt = Date.parse(it.claimedAt || 0);
+    if (!claimedAt || nowMs - claimedAt > STALE_POSTING_MS) {
+      it.status = "pending";
+      delete it.claimedAt;
+      delete it.claimedBy;
+      n++;
+    }
+  }
+  return n;
+}
+
 async function graphPost(url, params) {
   const body = new URLSearchParams(params);
   const res = await fetch(url, { method: "POST", body });
@@ -122,12 +140,19 @@ async function main() {
   const args = parseArgs(process.argv);
   const nowMs = args.now ? Date.parse(args.now) : Date.now();
 
-  const raw = await fs.readFile(args.queue, "utf8");
-  const queue = JSON.parse(raw);
-  const items = queue.items || [];
+  let raw = await fs.readFile(args.queue, "utf8");
+  let queue = JSON.parse(raw);
+  let items = queue.items || [];
 
   const igUserId = process.env.IG_USER_ID;
   const token = process.env.IG_ACCESS_TOKEN;
+  const publisher = process.env.ORBS_PUBLISHER || "unknown";
+
+  const stale = recoverStalePosting(items, nowMs);
+  if (stale > 0 && !args.dryRun) {
+    await fs.writeFile(args.queue, JSON.stringify(queue, null, 2) + "\n", "utf8");
+    console.log(`Recovered ${stale} stale posting claim(s).`);
+  }
 
   const due = items.filter((it) => {
     if (it.status !== "pending") return false;
@@ -172,24 +197,49 @@ async function main() {
     }
 
     try {
-      console.log(`POSTING     ${item.id}  @${when}`);
-      const { mediaId, commentId } = await publishItem(item, { igUserId, token });
-      item.status = "posted";
-      item.postedAt = new Date().toISOString();
-      item.mediaId = mediaId;
-      if (commentId) item.commentId = commentId;
+      // Re-read queue so a concurrent publisher's claim is visible before we post.
+      raw = await fs.readFile(args.queue, "utf8");
+      queue = JSON.parse(raw);
+      items = queue.items || [];
+      const live = items.find((it) => it.id === item.id);
+      if (!live || live.status !== "pending") {
+        console.log(`SKIP ${item.id}: no longer pending (${live?.status || "missing"})`);
+        continue;
+      }
+
+      live.status = "posting";
+      live.claimedAt = new Date().toISOString();
+      live.claimedBy = publisher;
+      await fs.writeFile(args.queue, JSON.stringify(queue, null, 2) + "\n", "utf8");
+
+      console.log(`POSTING     ${live.id}  @${when}`);
+      const { mediaId, commentId } = await publishItem(live, { igUserId, token });
+      live.status = "posted";
+      live.postedAt = new Date().toISOString();
+      live.mediaId = mediaId;
+      delete live.claimedAt;
+      delete live.claimedBy;
+      if (commentId) live.commentId = commentId;
       changed = true;
       posted++;
       console.log(`  ok -> media ${mediaId}${commentId ? `, comment ${commentId}` : ""}`);
-      if (item.needsManualPin) {
+      if (live.needsManualPin) {
         console.log(`  ACTION: open IG and PIN the resource comment on this post.`);
       }
       // persist immediately so a mid-run failure never double-posts earlier items
       await fs.writeFile(args.queue, JSON.stringify(queue, null, 2) + "\n", "utf8");
     } catch (err) {
-      item.status = "error";
-      item.error = err.message;
-      item.erroredAt = new Date().toISOString();
+      raw = await fs.readFile(args.queue, "utf8");
+      queue = JSON.parse(raw);
+      items = queue.items || [];
+      const live = items.find((it) => it.id === item.id);
+      if (live) {
+        live.status = "error";
+        live.error = err.message;
+        live.erroredAt = new Date().toISOString();
+        delete live.claimedAt;
+        delete live.claimedBy;
+      }
       changed = true;
       console.error(`  FAILED ${item.id}: ${err.message}`);
       await fs.writeFile(args.queue, JSON.stringify(queue, null, 2) + "\n", "utf8");

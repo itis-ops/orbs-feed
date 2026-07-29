@@ -43,11 +43,30 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Skip if local publisher is active
+        id: heartbeat
+        run: |
+          if [ -f .publisher-heartbeat ]; then
+            last="$(tr -d '[:space:]' < .publisher-heartbeat)"
+            last_epoch=$(date -d "$last" +%s 2>/dev/null || echo 0)
+            now_epoch=$(date +%s)
+            age=$((now_epoch - last_epoch))
+            echo "Local heartbeat: $last (${age}s ago)"
+            if [ "$last_epoch" -gt 0 ] && [ "$age" -lt 1800 ]; then
+              echo "Local publisher active — skipping cloud publish to avoid doubles."
+              echo "skip=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          fi
+          echo "skip=false" >> "$GITHUB_OUTPUT"
+
       - name: Publish due posts
+        if: steps.heartbeat.outputs.skip != 'true'
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           GRAPH_API_VERSION: ${{ vars.GRAPH_API_VERSION }}
+          ORBS_PUBLISHER: gha
         run: |
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
             node tools/publish-due.mjs --dry-run
@@ -56,7 +75,7 @@ jobs:
           fi
 
       - name: Commit queue state if changed
-        if: ${{ github.event.inputs.dry_run != 'true' }}
+        if: steps.heartbeat.outputs.skip != 'true' && github.event.inputs.dry_run != 'true'
         run: |
           if [ -n "$(git status --porcelain queue.json)" ]; then
             git config user.name "github-actions[bot]"

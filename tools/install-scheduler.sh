@@ -93,9 +93,18 @@ cd "\$ROOT"
 
 log "start publish run"
 
-if ! git pull --ff-only origin main >> "\$LOG" 2>&1; then
-  log "WARN: git pull failed — continuing with local queue.json"
+if ! git fetch origin main >> "\$LOG" 2>&1; then
+  log "ERROR: git fetch failed — aborting to avoid double-posts"
+  exit 1
 fi
+
+if ! git pull --rebase origin main >> "\$LOG" 2>&1; then
+  log "ERROR: git pull --rebase failed — aborting to avoid double-posts"
+  log "       Fix: cd \$ROOT && git fetch origin && git reset --hard origin/main"
+  exit 1
+fi
+
+export ORBS_PUBLISHER=local
 
 set +e
 output=\$("\$NODE" tools/publish-due.mjs 2>&1)
@@ -120,6 +129,15 @@ if [[ -n "\$(git status --porcelain queue.json)" ]]; then
   fi
 else
   log "no queue changes"
+fi
+
+date -u +"%Y-%m-%dT%H:%M:%SZ" > .publisher-heartbeat
+git add .publisher-heartbeat
+if git diff --cached --quiet; then
+  :
+else
+  git commit -m "publish: heartbeat [skip ci]" >> "\$LOG" 2>&1
+  git push origin main >> "\$LOG" 2>&1 || log "WARN: heartbeat push failed"
 fi
 
 log "done"

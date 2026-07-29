@@ -14,9 +14,11 @@ build-queue.mjs (private orbs project)
     └─ runs tools/publish-due.mjs with creds from ../orbs/.env.local
             └─ Meta Graph API: create container → publish → first comment
             └─ marks item "posted" in queue.json and pushes state to GitHub
+            └─ writes `.publisher-heartbeat` so cloud backup stays idle while Mac is awake
 
 .github/workflows/publish.yml  (cloud backup when Mac is asleep)
     └─ same publish-due.mjs on GitHub Actions (slot-aware cron + */30)
+    └─ skips automatically if `.publisher-heartbeat` is fresher than 30 min
 ```
 
 ## One-time scheduler setup (required)
